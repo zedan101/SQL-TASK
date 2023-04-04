@@ -1,18 +1,30 @@
 /****** Script for SelectTopNRows command from SSMS  ******/
-/* Q-16=> SELECT * FROM Employee
+/* 
+16. Select all columns for everyone by their ages in descending order.
+Ans=> SELECT * FROM Employee
 			ORDER BY Age DESC */
 
-/* Q-17=> SELECT * FROM Employee
+/* 
+17. Select all columns for everyone by their ages in ascending order.
+Ans=> SELECT * FROM Employee
 			ORDER BY Age */
 			
-/* Q-18=> SELECT * FROM Employee
+/*
+18. Select all columns for everyone by their salaries in descending order.
+Ans=> SELECT * FROM Employee
 			ORDER BY Salary DESC */
 
-/* Q-19=> SELECT * FROM Employee
+/*
+19. Select all columns for everyone by their salaries in ascending order.
+Ans=> SELECT * FROM Employee
 			ORDER BY Salary */
 
-/* Q-20=> SELECT * FROM Employee
+/* 
+20. Select all columns for everyone by their salaries in ascending order whose age not less than 17.
+Ans=> SELECT * FROM Employee
 			WHERE Age >= 17 ORDER BY Salary */
 
-/*  Q-21=> SELECT * FROM Employee
+/* 
+21. Select all columns for everyone by their salaries in descending order whose age not more than 34.
+Ans=> SELECT * FROM Employee
 			WHERE Age <= 34 ORDER BY Salary DESC */

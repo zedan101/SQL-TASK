@@ -1,18 +1,30 @@
 /****** Script for SelectTopNRows command from SSMS  ******/
-/*Q-10=>	SELECT * FROM Employee
+/*
+10. Select all columns for everyone whose last name ends in "Moore".
+Ans=>	SELECT * FROM Employee
 		WHERE LastName LIKE '%Moore' */
 
-/*	Q-11=>  SELECT * FROM Employee
+/*	
+11. Select all columns for everyone who are 35 and above
+Ans=>  SELECT * FROM Employee
 			WHERE Age >= 35  */
 
-/* Q-12=> SELECT FirstName,LastName,Age,Salary FROM Employee
+/*
+12. Select firstname ,lastname,age and salary of everyone whose age is above 24 and below 43
+Ans=> SELECT FirstName,LastName,Age,Salary FROM Employee
 			WHERE Age > 24 AND Age < 43 */
 			
-/* Q-13=> SELECT FirstName ,Title, LastName FROM Employee
+/* 
+13. Select firstname, title and lastname whose age is in the range 28 and 62 and salary greater than 31250
+Ans=> SELECT FirstName ,Title, LastName FROM Employee
 			WHERE Age >= 28 AND Age <= 63 AND Salary > 31250  */
 
-/* Q-14=> SELECT * FROM Employee
+/* 
+14. Select all columns for everyone whose age is not more than 48 and salary not less than 21520
+Ans=> SELECT * FROM Employee
 			WHERE Age <= 48 AND Salary >= 21520 */
 			
-/* Q-15=>	SELECT FirstName , Age  FROM Employee
-		WHERE FirstName Like 'John%' AND Salary >= 25000 AND Salary <=35000 */
+/*
+15. Select firstname and age of everyone whose firstname starts with "John" and salary in the range 25000 and 35000
+Ans=>	SELECT FirstName , Age  FROM Employee
+		WHERE FirstName LIKE 'John%' AND Salary >= 25000 AND Salary <=35000 */

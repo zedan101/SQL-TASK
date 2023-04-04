@@ -1,18 +1,30 @@
 /****** Script for SelectTopNRows command from SSMS  ******/
-/* Q-29=>	SELECT AVG(Salary) FROM Employee
+/* 
+29. Select the average salary of employees whose age is not less than 35 and not more than 50
+Ans=>	SELECT AVG(Salary) FROM Employee
 			WHERE Age >=35 AND Age <=50 */
 
-/* Q-30=> SELECT COUNT(FirstName) FROM Employee
+/* 
+30. Select the number of Freshers
+Ans=> SELECT COUNT(FirstName) FROM Employee
 			WHERE Title = 'Fresher' */
 
-/* Q-31=> SELECT COUNT(Title)*100/(SELECT COUNT(*) FROM Employee)
+/* 
+31. What percentage of programmers constitute your employees
+Ans=> SELECT COUNT(Title)*100/(SELECT COUNT(*) FROM Employee)
 			FROM Employee WHERE Title = 'Programmer' */
 
-/* Q-32=> SELECT SUM(Salary) FROM Employee
+/* 
+32. What is the combined salary that you need to pay to the employees whose age is not less than 40
+Ans=> SELECT SUM(Salary) FROM Employee
 			WHERE Age>=40 */
 
-/* Q-33=> SELECT SUM(Salary) FROM Employee
+/* 
+33. What is the combined salary that you need to pay to all the Freshers and Programmers for 1 month
+Ans=> SELECT SUM(Salary) FROM Employee
 			WHERE Title = 'Fresher' OR Title = 'Programmer' */
 
-/* Q-34=> SELECT SUM(Salary)*36 FROM Employee 
+/* 
+34. What is the combined salary that you need to pay to all the Freshers whose age is greater than 27 for 3years
+Ans=> SELECT SUM(Salary)*36 FROM Employee 
 			WHERE Title = 'Fresher' AND Age>27 */
